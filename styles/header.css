@@ -1,0 +1,12 @@
+.header {
+  background-image: url(../images/hero-image.png);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.header__newsletter {
+}
+
+.header__input {
+}
