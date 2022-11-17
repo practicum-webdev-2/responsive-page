@@ -1,0 +1,15 @@
+.roles {
+  padding: 90px 0;
+}
+
+.roles__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+@media screen and (min-width: 900px) {
+  .roles__cards {
+    gap: 120px;
+  }
+}
