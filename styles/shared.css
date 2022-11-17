@@ -5,7 +5,41 @@
 }
 
 .subtitle {
+  font-size: 0.75rem;
+  letter-spacing: 0.2px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.header__subtitle {
+  margin-bottom: 42px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .button {
+  border: none;
+  background-color: #f84646;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.42;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 900px) {
+  .title {
+    font-size: 3.5rem;
+    text-align: left;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+    text-align: left;
+  }
 }

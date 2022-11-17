@@ -5,8 +5,64 @@
   height: 100vh;
 }
 
+.header__content {
+  max-width: 565px;
+  margin: 0 auto;
+}
+
+.header__title {
+  margin: 62px 0;
+}
+
+.header__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 35px;
+}
+
+.header__burguer {
+  height: 32px;
+  width: 32px;
+  gap: 8px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.header__burguer-img {
+  display: block;
+  height: 2px;
+  width: 22px;
+  background-color: black;
+}
+
+.header__menu {
+  display: none;
+  list-style: none;
+}
+
 .header__newsletter {
 }
 
 .header__input {
+}
+
+@media screen and (min-width: 900px) {
+  .header__burguer {
+    display: none;
+  }
+
+  .header__menu {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+  }
+
+  .header__content {
+    margin: 0;
+  }
 }
