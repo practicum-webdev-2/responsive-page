@@ -1,6 +1,9 @@
 .navbar__list {
   display: none;
   list-style: none;
+  padding: 0;
+  gap: 40px;
+  align-items: center;
 }
 
 .navbar__list a {

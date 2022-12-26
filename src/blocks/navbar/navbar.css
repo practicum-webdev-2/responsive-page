@@ -7,3 +7,10 @@
   line-height: 1.4;
   font-weight: 700;
 }
+
+@media only screen and (min-width: 800px) {
+  .navbar {
+    justify-content: flex-end;
+    gap: 48px;
+  }
+}
