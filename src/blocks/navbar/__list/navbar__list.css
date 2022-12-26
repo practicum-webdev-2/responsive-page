@@ -1,0 +1,14 @@
+.navbar__list {
+  display: none;
+  list-style: none;
+}
+
+.navbar__list a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 700px) {
+  .navbar__list {
+    display: flex;
+  }
+}
