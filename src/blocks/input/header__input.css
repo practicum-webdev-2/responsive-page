@@ -1,0 +1,27 @@
+.header__input{
+    display: flex;
+    height: 60px;
+    max-width: 355px;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 43px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items:center;
+    justify-content:space-between;
+    border-radius: 8px;
+}
+/* As propriedades de posicionamento vão se ajustar quando for inserido dentro do bloco hero °-° */
+@media only screen and (min-width: 800px) {
+    .header__input{
+     max-width: 422px;
+     margin-left: 0;
+     margin-bottom: 0;
+    }
+  }
+  @media only screen and (min-width: 1100px) {
+    .header__input{
+     max-width: 502px;
+     margin-left: 0;
+     margin-bottom: 0;
+    }
+  }

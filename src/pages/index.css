@@ -5,3 +5,7 @@
 
 @import url("../blocks/navbar/navbar.css");
 @import url("../blocks/navbar/__list/navbar__list.css");
+
+@import url("../blocks/input/header__input.css");
+@import url("../blocks/input/__input-newsletter/header__input-newsletter.css");
+@import url("../blocks/input/register-button/register-button.css");
