@@ -7,3 +7,19 @@
   padding: 40px 20px 0 20px;
   justify-items: center;
 }
+@media only screen and (min-width: 800px) {
+  .services__grid {
+    grid-template-columns: 1fr 1fr;
+    margin-left: 148px;
+    margin-right: 148px;
+    gap: 0 118px;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .services__grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 143px;
+    margin-right: 143px;
+    gap: 0 116px;
+  }
+}
