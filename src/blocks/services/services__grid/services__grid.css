@@ -1,0 +1,9 @@
+.services__grid {
+  list-style: none;
+  display: grid;
+  grid-column: auto;
+  grid-template-columns: 1fr;
+  margin: auto;
+  padding: 40px 20px 0 20px;
+  justify-items: center;
+}
