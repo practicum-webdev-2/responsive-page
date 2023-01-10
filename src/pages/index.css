@@ -9,3 +9,18 @@
 @import url("../blocks/input/header__input.css");
 @import url("../blocks/input/__input-newsletter/header__input-newsletter.css");
 @import url("../blocks/input/register-button/register-button.css");
+
+@import url("../blocks/services/services__grid/services__grid.css");
+@import url("../blocks/services/services__grid/grid__item/grid__item.css");
+@import url("../blocks/services/services__grid/grid__item/grid__image/grid__image.css");
+@import url("../blocks/services/services__grid/grid__item/grid__image/grid__image__circle/grid__image__circle_pink.css");
+@import url("../blocks/services/services__grid/grid__item/grid__image/grid__image__circle/grid__image__circle_purple.css");
+@import url("../blocks/services/services__grid/grid__item/grid__image/grid__image__circle/grid__image__circle_yellow.css");
+@import url("../blocks/services/services__grid/grid__item/grid__image/grid__image__circle/grid__image__circle_blue.css");
+@import url("../blocks/services/services__grid/grid__item/grid__image/grid__image__circle/grid__image__circle_red.css");
+@import url("../blocks/services/services__grid/grid__item/grid__image/grid__image__circle/grid__image__circle_baby-blue.css");
+@import url("../blocks/services/services__grid/grid__item/__text/grid__item__text.css");
+@import url("../blocks/services/services__grid/grid__item/__title/grid__item__title.css");
+@import url("../blocks/services/services.css");
+@import url("../blocks/services/section-title/section-title.css");
+@import url("../blocks/services/section-text/section-text.css");
