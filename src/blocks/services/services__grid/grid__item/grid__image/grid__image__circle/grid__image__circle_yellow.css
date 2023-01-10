@@ -1,0 +1,10 @@
+.grid__image__circle_yellow {
+  height: 45px;
+  width: 45px;
+  background: hsl(36, 100%, 66%);
+  opacity: 0.7;
+  border-radius: 50%;
+  position: absolute;
+  top: -18%;
+  right: 0;
+}
