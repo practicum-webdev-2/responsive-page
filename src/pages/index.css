@@ -5,3 +5,7 @@
 
 @import url("../blocks/navbar/navbar.css");
 @import url("../blocks/navbar/__list/navbar__list.css");
+
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__title/hero__title.css);
+@import url(../blocks/hero/__text/hero__text.css);
