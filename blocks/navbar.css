@@ -1,0 +1,24 @@
+.navbar {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: end;
+  padding-right: 20px;
+  padding-top: 35px;
+}
+
+.navbar__list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.navbar__item {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.navbar__hamburger {
+  display: none;
+}
