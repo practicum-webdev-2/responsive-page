@@ -1,0 +1,15 @@
+.head {
+    align-items: left;
+}
+
+.head__heading {
+    font-size: 64px;
+    line-height: 82px;
+    font-weight: 800px;
+}
+
+.head__paragraphy {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400px;
+}
