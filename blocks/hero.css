@@ -8,7 +8,7 @@
 .hero__title {
   padding-bottom: 20px;
   font-size: 64px;
-  line-height: 82px;
+  line-height: 1.28;
   margin: 0;
 }
 
@@ -21,14 +21,14 @@
 .hero__search-bar {
   display: flex;
   margin-top: 20px;
+  margin-bottom: 130px;
   width: 75%;
   border-radius: 8px;
   background-color: #ffffff;
 }
 
 .hero__text {
-  width: 245px;
-
+  width: 100%;
   margin: 0;
   color: rgba(0, 0, 0, 0.4);
   font-size: 16px;
@@ -42,6 +42,7 @@
   border-radius: 8px;
   background-color: #f84646;
   color: #ffffff;
-  padding: 18px 31px 33px 40px;
-  width: 27%;
+  padding: 12px 30px;
+  display: flex;
+  align-items: center;
 }
