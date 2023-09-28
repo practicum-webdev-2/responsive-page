@@ -3,3 +3,7 @@
 @import url(../blocks/hamburger.css);
 @import url(../blocks/hero.css);
 @import url(../blocks/header.css);
+
+.page {
+  font-family: Manrope;
+}
