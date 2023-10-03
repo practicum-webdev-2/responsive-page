@@ -20,20 +20,22 @@
 
 .hero__search-bar {
   display: flex;
+  justify-content: space-between;
   margin-top: 20px;
   margin-bottom: 130px;
   width: 75%;
   border-radius: 8px;
+  padding: 6px;
+  padding-left: 32px;
   background-color: #ffffff;
 }
 
 .hero__text {
-  width: 100%;
+  flex-basis: 100%;
+  border: none;
   margin: 0;
   color: rgba(0, 0, 0, 0.4);
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 2.25;
   letter-spacing: 0.2px;
 }
