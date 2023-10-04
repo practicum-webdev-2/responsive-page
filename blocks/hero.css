@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   width: 45%;
-  margin: 117px 653px 148px 122px;
+  margin-top: 117px;
+  margin-left: 122px;
 }
 
 .hero__title {
@@ -14,7 +15,7 @@
 
 .hero__paragraph {
   font-size: 20px;
-  line-height: 36px;
+  line-height: 1.8;
   margin: 0;
 }
 
@@ -47,4 +48,5 @@
   padding: 12px 30px;
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
