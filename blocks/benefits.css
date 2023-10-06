@@ -1,0 +1,38 @@
+.benefits {
+  margin: 0 auto;
+  margin-top: 10%;
+  background-image: url(/images/__img-benefits.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f84646;
+  font-family: Manrope;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 376px;
+}
+.benefits__title {
+  margin: 0 auto;
+  margin-top: 80px;
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+.benefits__subtitle {
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 0.5;
+  font-weight: 400;
+}
+.benefits__grid {
+  margin: 0 auto;
+  margin-top: 80px;
+  max-width: 1078px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 30px;
+}
