@@ -29,7 +29,6 @@
 .references__grid {
   display: grid;
   margin: 0 auto 60px;
-  max-width: 946px;
   align-content: center;
   grid-template-columns: repeat(5, auto);
   grid-template-rows: repeat(4, auto);
@@ -113,7 +112,7 @@
   grid-row-end: 3;
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 962px) {
   .references__title {
     margin-top: 40px;
     font-size: 36px;
