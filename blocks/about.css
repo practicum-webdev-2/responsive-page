@@ -1,0 +1,131 @@
+.about {
+  margin: 160px auto;
+}
+
+.about__content {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 83%;
+}
+
+.about__quality {
+  margin: 0;
+  margin-bottom: 165px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 10%;
+  grid-template-areas:
+    "title image"
+    "subtitle image"
+    "buttom image"
+    ". image";
+}
+
+.about__title {
+  margin: 0;
+  margin-bottom: 12px;
+  color: #2e2e2e;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.18;
+  grid-area: title;
+}
+
+.about__subtitle {
+  margin: 0;
+  margin-bottom: 32px;
+  color: #808080;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
+  grid-area: subtitle;
+}
+
+.about__button {
+  margin: 0;
+  border-radius: 8px;
+  background: #f84646;
+  width: 160px;
+  height: 48px;
+  padding: 12px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.7;
+  text-align: center;
+  text-decoration: none;
+  grid-area: buttom;
+}
+
+.about__image {
+  margin: 0;
+  max-width: 504px;
+  grid-area: image;
+}
+
+.about__image_test {
+  grid-area: image;
+}
+
+.about__image_alternative {
+  display: none;
+  grid-area: image;
+}
+
+.about__test {
+  margin: 0;
+  display: grid;
+  column-gap: 10%;
+  grid-template-areas:
+    "image title"
+    "image subtitle"
+    "image buttom"
+    "image .";
+}
+
+@media screen and (max-width: 1200px) {
+  .about__image {
+    max-width: 424px;
+  }
+
+  .about__image_test {
+    display: none;
+  }
+  .about__image_alternative {
+    display: flex;
+    grid-area: image;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .about__image {
+    max-width: 335px;
+  }
+  .about__image_test {
+    display: none;
+  }
+
+  .about__image_alternative {
+    display: grid;
+    grid-area: image;
+  }
+  .about__button {
+    width: 338px;
+  }
+  .about__quality {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    text-align: center;
+  }
+  .about__test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    text-align: center;
+  }
+}
