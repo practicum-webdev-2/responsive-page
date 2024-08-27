@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+.input {
+  background: #ffffff;
+  width: 335px;
+  height: 60px;
+  border-style: none;
+  border-radius: 8px;
+  border: 1px solid grey; /* Borda adicionada para visualizar.Será excluida */
+  /* text-align: center; */
+  font-size: 14px;
+  line-height: 36px;
+  color: rgba(0, 0, 0, 0.4);
+  letter-spacing: 0.2px;
+  padding-left: 21px;
+  margin: auto;
+}
